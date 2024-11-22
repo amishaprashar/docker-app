@@ -46,14 +46,14 @@ jobs:
     # Build and push backend image
     - name: Build and push backend
       run: |
-        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/lens-app:backend_${{ github.run_id }} ./backend
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/lens-app:backend_${{ github.run_id }}
+        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/lens-app:backend_1.1.0 ./backend
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/lens-app:backend_1.1.0
 
     # Build and push nginx image
     - name: Build and push nginx
       run: |
-        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/lens-app:nginx_${{ github.run_id }} ./nginx
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/lens-app:nginx_${{ github.run_id }}
+        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/lens-app:nginx_1.1.0 ./nginx
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/lens-app:nginx_1.1.0 
 
     # Run the application in detached mode
     - name: Run application
