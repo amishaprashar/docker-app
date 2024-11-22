@@ -49,7 +49,7 @@ docker-app/
 │   ├── Dockerfile             # Dockerfile for the frontend
 ├── docker-compose.yml         # Orchestrates services
 └── .github/workflows/
-    └── ci-cd-pipeline.yml     # GitHub Actions pipeline
+    └── pipeline.yml     # GitHub Actions pipeline
 ```
 
 ---
