@@ -60,8 +60,8 @@ docker-app/
 1. Install [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/).
 2. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/multi-layer-docker-app.git
-   cd multi-layer-docker-app
+   git@github.com:amishaprashar/docker-app.git
+   cd docker-app
    ```
 
 ---
