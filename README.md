@@ -1,5 +1,5 @@
 
-# **Multi-Layer Docker Application**
+## **Multi-Layer Docker Application**
 
 A multi-layer Docker application consisting of a **Flask backend** and an **NGINX-based frontend**. The application is containerized and managed using Docker Compose, with a CI/CD pipeline set up using GitHub Actions for automated builds and deployments to Docker Hub.
 
