@@ -40,7 +40,7 @@ This project demonstrates a multi-layer application architecture using Docker:
 ## **Directory Structure**
 
 ```
-multi-layer-docker-app/
+docker-app/
 ├── backend/
 │   ├── app.py                 # Flask backend application
 │   ├── Dockerfile             # Dockerfile for the backend
@@ -142,6 +142,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any questions or feedback, feel free to reach out:
 
-- **Name**: Rishabh Modi
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Name**: Amisha Prashar
+- **Email**: amishaprashar08@gmail.com
 - **GitHub**: [https://github.com/your-username](https://github.com/your-username)
