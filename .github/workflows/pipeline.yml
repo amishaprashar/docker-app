@@ -64,3 +64,8 @@ jobs:
     - name: Test application
       run: |
         curl 0.0.0.0:5000
+
+    # Stop and clean up containers
+    - name: Clean up containers
+      run: |
+          docker-compose down
