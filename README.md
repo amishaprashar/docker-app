@@ -144,4 +144,6 @@ For any questions or feedback, feel free to reach out:
 
 - **Name**: Amisha Prashar
 - **Email**: amishaprashar08@gmail.com
-- **GitHub**: [https://github.com/your-username](https://github.com/your-username)
+- **GitHub**: [https://github.com/amishaprashar/docker-app]
+
+
